@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-vidual{
+	width: 840px;
+	height: 400px;
+	margin: 0 auto;
+	background-image: url(chapter7_exercise/img/mv.jpg);
+	background-size: cover;
+	background-position: bottom;
+}
+
+.main-vidual-text{
+	color: gray;
+	padding: 20px;
+}
+
+.menue-box{
+	margin: 0 auto;
+	padding: 50px 0 50px 0;
+}
+
+.menue{
+	width: 100%;
+	margin: 0 auto;
+}
+
+.menue-item{
+	padding : 30px 0 30px 30px;
+	border-bottom: 1px solid #f7f7f7;
+	margin: 0 auto;
+｝
+
+
