@@ -1,0 +1,94 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.clearfix::after{
+		content: "";
+		display: block;
+		clear: both;
+}
+
+main{
+  width: 960px;
+  margin: 50px auto;
+}
+
+.list{
+		width: 100%;
+		padding-bottom: 50px;
+}
+
+.list-item{
+	list-style: none;
+	padding: 20px;
+}
+
+.list-item:nth-child(odd){
+	background-color: #acabab;
+}
+
+.list-text{
+	line-height: 50px;
+	vertical-align: middle;
+}
+
+.box{
+	padding-bottom: 50px;
+}
+
+.box-box{
+	margin: 0 auto;
+	width: 960px;
+}
+
+.box-item{
+	height: 200px;
+	width: 30%;
+	float: left;
+}
+
+.box-item:nth-child(1){
+	background-color: orange;
+	margin: 0 5% 40px 0;
+}
+
+.box-item:nth-child(2){
+	background-color: yellow;
+	margin: 0 5% 40px 0;
+}
+
+.box-item:nth-child(3){
+	background-color: yellow;
+	margin-bottom: 40px;
+}
+
+.box-item:nth-child(4){
+	background-color: yellow;
+	margin: 0 5% 40px 0;
+}
+
+.box-item:nth-child(5){
+	background-color: orange;
+	margin: 0 5% 40px 0;
+}
+
+.box-item:nth-child(6){
+	background-color: yellow;
+	margin-bottom: 40px;
+}
+
+.box-item:nth-child(7){
+	background-color: yellow;
+	margin-right: 5%;
+}
+
+.box-item:nth-child(8){
+	background-color: yellow;
+	margin-right: 5%;
+}
+
+.box-item:nth-child(9){
+	background-color: orange;
+}
